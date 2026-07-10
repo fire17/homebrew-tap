@@ -1,8 +1,8 @@
 class Bettercd < Formula
   desc "Better cd - zoxide-aware, auto-mkdir, with undo. Pure shell, zero deps"
   homepage "https://github.com/fire17/bettercd"
-  url "https://github.com/fire17/bettercd/archive/refs/tags/v0.7.0.tar.gz"
-  sha256 "91e8290023c7fd9dde3f7fea0820cde5c0813de3023ee17953df8e53af96ccc7"
+  url "https://github.com/fire17/bettercd/archive/refs/tags/v0.8.0.tar.gz"
+  sha256 "6dbeba8b1ebee3e249f7df69c5ba3ad9459faa7ffd34e89973725a5c0344dcf9"
   license "MIT"
 
   def install
