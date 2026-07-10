@@ -1,8 +1,8 @@
 class Betterkill < Formula
   desc "Better kill - pids, %jobs, :ports, and names. Pure shell, zero deps"
   homepage "https://github.com/fire17/betterkill"
-  url "https://github.com/fire17/betterkill/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0f381019a56d2005da0928eed2c1dcd60e5d2e9ca4cf7780a1b92777725e331a"
+  url "https://github.com/fire17/betterkill/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "c1d147e4e62c5bb11ac5ed575fd39b9018be6f223864d4e9a02049dd753764f5"
   license "MIT"
 
   def install
