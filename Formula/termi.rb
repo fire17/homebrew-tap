@@ -11,7 +11,7 @@ class Termi < Formula
     libexec.install "bin", "packs", "support", "skills"
     (bin/"termi").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["python@3.13"].opt_bin}/python3" "#{libexec}/bin/termi" "$@"
+      exec "#{Formula["python@3.13"].opt_bin}/python3.13" "#{libexec}/bin/termi" "$@"
     EOS
   end
 
